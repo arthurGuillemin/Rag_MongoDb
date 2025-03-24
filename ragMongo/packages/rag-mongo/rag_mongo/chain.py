@@ -23,7 +23,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 # Set DB
 
-MONGO_URI = "mongodb+srv://aguillemin291:6dugDVYUImyf46TH@cluster0.u58zs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = ""
 
 DB_NAME = "langchain"
 COLLECTION_NAME = "test"
