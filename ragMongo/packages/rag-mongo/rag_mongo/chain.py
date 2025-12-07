@@ -53,7 +53,7 @@ embeddings = AzureOpenAIEmbeddings(
 
 # VectorStore
 vector_store = MongoDBAtlasVectorSearch.from_connection_string(
-    connection_string=  "mongodb+srv://aguillemin291:6dugDVYUImyf46TH@cluster0.u58zs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    connection_string= ,
     namespace=DB_NAME + "." + COLLECTION_NAME,
     embedding= embeddings,
     index_name=ATLAS_VECTOR_SEARCH_INDEX_NAME,
