@@ -9,7 +9,7 @@ from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
 
 
-MONGO_URI = "mongodb+srv://aguillemin291:6dugDVYUImyf46TH@cluster0.u58zs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = 
 
 # Note that if you change this, you also need to change it in `rag_mongo/chain.py`
 DB_NAME = "langchain"
